@@ -15,6 +15,36 @@ variable "appserverami" {
   
 }
 
+variable "vpc-id" {
+    type    = "string"
+    default = "vpc-05d68bb1d1bdcbc09"
+}
+
+variable "subnet_1_id" {
+    type    = "string"
+    default = "subnet-041b81627c921b69c"
+}
+
+variable "subnet_2_id" {
+    type    = "string"
+    default = "subnet-0e26d0f9cc883c828"
+}
+
+variable "sg_id" {
+    type    = "string"
+    default = "sg-04ee091295e72ae20"
+}
+
+variable "rt_id" {
+    type    = "string"
+    default = "rtb-020b0d0804c9f422a"
+}
+
+variable "igw_id" {
+    type    = "string"
+    default = "igw-02f58a5dae23623c1"
+}
+
 variable "awskeypair" {
     type    = "string"
     default = "terraform"

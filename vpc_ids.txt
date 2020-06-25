@@ -1,0 +1,8 @@
+outputs: 
+
+igw_id 		= igw-02f58a5dae23623c1
+rt_id 		= rtb-020b0d0804c9f422a
+sg_id		= sg-04ee091295e72ae20
+subnet_1_id 	= subnet-041b81627c921b69c
+subnet_2_id 	= subnet-0e26d0f9cc883c828
+vpc-id 		= vpc-05d68bb1d1bdcbc09

@@ -4,7 +4,7 @@ provider "aws" {
    secret_key   = "${var.secretkey}"
 }
 
-module "k8s_nodes"{
-    source = "./modules/k8s_jenkins"
+module "tomcat"{
+    source = "./tomcat"
 }
 

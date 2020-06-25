@@ -5,6 +5,6 @@ provider "aws" {
 }
 
 module "k8s_nodes"{
-    source = "./modules/k8s_jenkins"
+    source = "./k8s_jenkins"
 }
 
